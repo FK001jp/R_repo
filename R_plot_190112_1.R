@@ -362,4 +362,4 @@ ggp5 <- ggplot(d7_1, aes(x = x1, y = value, color = QUAD)) +
   geom_line() + ylim(0,100) + ggtitle("軸の移動による正解率推移(Valence-up_Energy-down)") + xlab("Threshold") + ylab("正解率") + theme_bw(base_family = "HiraKakuProN-W3")
 ggp5
 ggsave(file = "220_Majority_190112_error_x-up_y-down.png", plot = ggp5)
-
+###modified20210123###
